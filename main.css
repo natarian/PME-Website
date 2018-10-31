@@ -1,5 +1,39 @@
 html { font-size: 62.5%; }
 
+    /* Even smaller devices*/
+    @media (max-width: 500px) {
+      font-size: 50%;
+      section.hero {
+        padding-top: 50%;
+        padding-bottom: 50%;
+      }
+      section.hero h1 {
+        font-size: 50%;
+      }
+    }
+
+    /* Extra small devices (portrait phones) */
+    @media (min-width: 575.98px) {
+        font-size: 55%;
+    }
+
+    /* Small devices (landscape phones) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        font-size: 58%;
+    }
+    /* Medium devices (tablets) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 60%;
+    }
+    /* Large devices (desktops) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        font-size: 62.5%;
+    }
+    /* Extra large devices (large desktops) */
+    @media (min-width: 1200px) {
+        font-size: 62.5%;
+    }
+
 body {
   margin: 0;
   font-size: 1.8rem;
@@ -20,7 +54,6 @@ section.padded {
   padding-bottom: 8rem;
 }
 
-.content { height: 95vh; width: 100%; margin-bottom: 10vh; }
 #homepage { height: 100h; width: 100%;}
 
 section.hero {
@@ -36,6 +69,8 @@ section.content .container .row, section.content .container-fluid .row { padding
 section.content .container .row .border-white, section.content .container-fluid .row .border-white { border: 0.1rem solid white; }
 section.content .container .row .border-black, section.content .container-fluid .row .border-black { border: 0.1rem solid black; }
 section.content .container .row .column-pad, section.content .container-fluid .row .column-pad { padding-top: 2rem; }
+
+section.body {  padding-bottom: 3rem; }
 
 .navbar_img {
   height: 6.3rem;
