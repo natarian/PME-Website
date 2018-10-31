@@ -5,14 +5,10 @@ body {
   font-size: 1.8rem;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  min-height: 40rem;
 }
 
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
-
-section.black {
-  background-color: black;
-  color: white;
-}
 
 section.white {
   background-color: white;
@@ -24,11 +20,10 @@ section.padded {
   padding-bottom: 8rem;
 }
 
-.content { height: 100vh; width: 100%;  }
+.content { height: 95vh; width: 100%; margin-bottom: 10vh; }
+#homepage { height: 100h; width: 100%;}
 
 section.hero {
-  /* width: 100%;
-  height: 100vh; */
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
@@ -37,7 +32,7 @@ section.hero h1 {
     font-weight: 800;
 }
 
-section.content .container .row, section.content .container-fluid .row { padding-top: 3rem; }
+section.content .container .row, section.content .container-fluid .row { padding-top: 3rem; padding-bottom: 3rem; }
 section.content .container .row .border-white, section.content .container-fluid .row .border-white { border: 0.1rem solid white; }
 section.content .container .row .border-black, section.content .container-fluid .row .border-black { border: 0.1rem solid black; }
 section.content .container .row .column-pad, section.content .container-fluid .row .column-pad { padding-top: 2rem; }
@@ -49,11 +44,36 @@ section.content .container .row .column-pad, section.content .container-fluid .r
   padding-right: 1rem;
 }
 
-a:hover {
+a:hover:not(#hero_image):not(#email):not(.fb_text_link):not(.contact_link):not(.internal_text_link:link) {
   color: rgb(71,0,142) !important;
-  color:rgb(224,58,62);
   transition:all .3s ease-out;
   box-shadow:0 -1px 0 0 #fff inset,0 3px 0 0 rgb(224,58,62);
 }
 
-.footer { font-size: 1.2rem; }
+#email:link, .internal_text_link, .internal_text_link:hover { color:rgb(71,0,142); }
+.fb_text_link { color:rgb(224,58,62) !important; }
+#links { text-align: center; }
+.contact_img:hover {
+  transform: scale(.95);
+}
+
+.footer {
+  font-size: 1.2rem;
+  height: 5vh;
+  width: 100%;
+  min-width: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgb(233,236,239);
+  text-align: center;
+  vertical-align: -webkit-baseline-middle;
+}
+
+#calendar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
