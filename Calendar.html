@@ -13,55 +13,55 @@
     <link rel="stylesheet" href="./main.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./About.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./Calendar.html">Calendar <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./Membership.html">Membership <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./PastEvents.html">Past Events <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./Contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+            <span class="navbar-text">
+            Pi Mu Epsilon: Maryland Alpha Chapter
+            </span>
+            <img class="navbar_img" src="images/UMD_seal.png" alt="UMD Logo">
+            <img class="navbar_img" src="images/PME_logo.gif" alt="PME Logo">
+        </div>
+    </nav>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./About.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./Calendar.html">Calendar <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./Membership.html">Membership <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./PastEvents.html">Past Events <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./Contact.html">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                </ul>
-                <span class="navbar-text">
-                Pi Mu Epsilon: Maryland Alpha Chapter
-                </span>
-                <img class="navbar_img" src="images/UMD_seal.png" alt="UMD Logo">
-                <img class="navbar_img" src="images/PME_logo.gif" alt="PME Logo">
-            </div>
-        </nav>
-
-
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Calendar</h1>
-                    <p class="lead">Keep up to date with all Pi Mu Epsilon events.</p>
-                </div>
-            </div>
-
-            <iframe id="calendar"
-                src="https://www.google.com/calendar/embed?title=UMD%20PME%20Calendar%20of%20Events&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cf85e34aio8bgbf9sndd6103hs%40group.calendar.google.com&amp;color=%23711616&amp;src=lks8e3u66u7m707l8v9bcornhg%40group.calendar.google.com&amp;color=%23182C57&amp;src=b6ppg6iiojihdjefl6jg5knhio%40group.calendar.google.com&amp;color=%23125A12&amp;src=0si4lf34jijti0dq8gq665u6qg%40group.calendar.google.com&amp;color=%23875509&amp;src=umdpme%40gmail.com&amp;color=%236B3304&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York"
-                style="border-width:0" width="800" height="600" frameborder="0" scrolling="no">
-            </iframe>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Calendar</h1>
+            <p class="lead">Keep up to date with all Pi Mu Epsilon events.</p>
+        </div>
     </div>
+
+    <iframe id="calendar"
+        src="https://calendar.google.com/calendar/b/1/embed?title=UMD%20PME%20Calendar%20of%20Events&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=umdpme%40gmail.com&amp;color=%236B3304&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York"
+        style="border-width:0" width="800" height="600" frameborder="0" scrolling="no">
+    </iframe>
+    <!-- <iframe id="calendar"
+        src="https://calendar.google.com/calendar/b/1/embed?title=UMD%20PME%20Calendar%20of%20Events&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=umdpme%40gmail.com&amp;color=%236B3304&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York"
+        style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no">
+    </iframe> -->
 
     <div class="footer text-center navbar-fixed-bottom ">
         <p>Developer: Andrew Natarian.&nbsp;&nbsp;</p>
