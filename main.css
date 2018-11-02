@@ -45,10 +45,15 @@ section.body {  padding-bottom: 3rem; }
   padding-right: 1rem;
 }
 
-a:hover:not(.hero_image):not(#email):not(.fb_text_link):not(.contact_link):not(.internal_text_link:link) {
+.nav-link:hover {
   color: rgb(71,0,142) !important;
   transition:all .3s ease-out;
   box-shadow:0 -1px 0 0 #fff inset,0 3px 0 0 rgb(224,58,62);
+}
+
+.hero_image {
+  height: 20rem;
+  width: auto;
 }
 
 #email:link, .internal_text_link, .internal_text_link:hover,#constitution, #constitution:hover { color:rgb(71,0,142) !important; }
@@ -119,7 +124,7 @@ img.card-img-top { height: 36rem;}
     font-size: 5rem !important;
   }
 
-  .hero_image { height: 80%; width: auto; }
+  .hero_image { height: 15rem; }
 
   .footer {
     height: 5vh !important;
@@ -141,7 +146,7 @@ img.card-img-top { height: 36rem;}
     font-size: 6rem !important;
   }
 
-  .hero_image { height: 85%; width: auto; }
+  .hero_image { height: 15.5rem; }
 
   .footer {
     height: 5vh !important;
@@ -163,7 +168,7 @@ img.card-img-top { height: 36rem;}
     font-size: 5.5rem !important;
   }
 
-  .hero_image { height: 92%; width: auto; }
+  .hero_image { height: 16rem; }
 
   .footer {
     height: 5vh !important;
@@ -185,7 +190,7 @@ img.card-img-top { height: 36rem;}
     font-size: 6rem !important;
   }
 
-  .hero_image { height: 94%; width: auto; }
+  .hero_image { height: 17rem; }
 
   .footer {
     height: 5vh !important;
@@ -207,7 +212,7 @@ img.card-img-top { height: 36rem;}
     font-size: 6.5rem !important;
   }
 
-  .hero_image { height: 96%; width: auto; }
+  .hero_image { height: 18rem; }
 
   .footer {
     height: 5vh !important;
@@ -222,7 +227,7 @@ img.card-img-top { height: 36rem;}
     font-size: 2rem !important;
   }
 
-  .hero_image { height: 98%; width: auto; }
+  .hero_image { height: 18.5rem; }
 
   section.hero {
     font-size: 1.8rem;
