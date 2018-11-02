@@ -30,10 +30,11 @@ section.hero h1 {
     font-weight: 800;
 }
 
-section.content .container .row, section.content .container-fluid .row { padding-top: 3rem; padding-bottom: 3rem; }
+section.content .container .row, section.content .container-fluid .row, table { padding-top: 3rem; padding-bottom: 3rem; }
 section.content .container .row .border-white, section.content .container-fluid .row .border-white { border: 0.1rem solid white; }
 section.content .container .row .border-black, section.content .container-fluid .row .border-black { border: 0.1rem solid black; }
 section.content .container .row .column-pad, section.content .container-fluid .row .column-pad { padding-top: 2rem; }
+.pastevents { margin-bottom: 2rem; }
 
 section.body {  padding-bottom: 3rem; }
 
@@ -50,7 +51,7 @@ a:hover:not(.hero_image):not(#email):not(.fb_text_link):not(.contact_link):not(.
   box-shadow:0 -1px 0 0 #fff inset,0 3px 0 0 rgb(224,58,62);
 }
 
-#email:link, .internal_text_link, .internal_text_link:hover { color:rgb(71,0,142); }
+#email:link, .internal_text_link, .internal_text_link:hover,#constitution, #constitution:hover { color:rgb(71,0,142) !important; }
 .fb_text_link { color:rgb(224,58,62) !important; }
 #links { text-align: center; }
 .contact_img:hover {
@@ -86,7 +87,9 @@ span.line {
   padding: 0.5rem;
 }
 
-/* iframe { width: 100vw; height: auto; } */
+th.table_label { background-color: rgb(71,0,142); color: white; }
+
+img.card-img-top { height: 36rem;}
 
 
 /***** Media Queries *****/
